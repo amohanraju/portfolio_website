@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 import { useSectionInView } from '@/lib/hooks'
 import { sendEmail } from '@/actions/sendEmail'
 
-export default function contact() {
+export default function Contact() {
   const {ref} = useSectionInView("Contact")
   return (
     <center>

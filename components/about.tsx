@@ -5,7 +5,7 @@ import {useInView} from "react-intersection-observer"
 import { useActiveSectionContext } from '@/context/active-section-context'
 import { useSectionInView } from '@/lib/hooks'
 
-export default function about(){
+export default function About(){
     const { ref } = useSectionInView("About");
     
     return (
