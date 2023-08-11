@@ -35,7 +35,7 @@ export const links = [
 export const experiencesData = [
   {
     title: "Software Developer Intern",
-    location: "Bengaluru, KA",
+    location: "Clifton, VA",
     description:
       "I worked as a full stack developer intern for this company and was involved with developing their child company, Affirm's website. Used Javascript, Bootstrap, and Express to develop this website. Additionally I worked on an Alexa Integration project where I helped to connect Alexa with our customer portal so that customers could easily reach tech support through voice command. Coded in python and used AWS Lambda for these integrations.",
     icon: React.createElement(CgWorkAlt),
@@ -45,7 +45,7 @@ export const experiencesData = [
     title: "Software Engineering and Data Science Intern",
     location: "Fairfax, VA",
     description:
-      "Currently this summer, I work as an intern for dewberry where I worked on devops engineering specifically the automation of power bi deployment pipelines using the Power BI REST API. Additionally, I did several data engineering projects with Microsoft Fabric, where I used Spark, SQL, and Python to code. One of the main projects I was involved with included developing a machine learning model to predict quarterly audit scores for each PM, BU, and Advocate Region and come to a decision on whether they meet corporate standards or not.",
+      "Currently this summer, I work as an intern for Dewberry where I worked on devops engineering specifically the automation of power bi deployment pipelines using the Power BI REST API. Additionally, I did several data engineering projects with Microsoft Fabric, where I used Spark, SQL, and Python to code. One of the main projects I was involved with included developing a machine learning model to predict quarterly audit scores for each PM, BU, and Advocate Region and come to a decision on whether they meet corporate standards or not.",
     icon: React.createElement(CgWorkAlt),
     date: "March 2023 - August 2023",
   },
