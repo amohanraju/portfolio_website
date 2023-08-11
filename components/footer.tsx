@@ -11,7 +11,7 @@ export default function Footer() {
       <br />
       <div className = "flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium">
         <a className = "bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-white active:scale-105 transition" href="https://www.linkedin.com/in/adarsh-mohanraju-16366318a/"> <BsLinkedin className = "opacity-70"/> </a>
-        <a className = "bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-white active:scale-105 transition" href="https://github.com/amohanraju/projects"> <FaGithubSquare className = "opacity-70"/> </a>
+        <a className = "bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-white active:scale-105 transition" href="https://github.com/amohanraju"> <FaGithubSquare className = "opacity-70"/> </a>
       </div>
     </footer>
   );

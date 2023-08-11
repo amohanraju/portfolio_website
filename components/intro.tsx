@@ -63,7 +63,7 @@ export default function Intro() {
         </Link>
         <a className = "bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-white active:scale-105 transition" href="/Adarsh - Resume.pdf" download> Download Resume <HiDownload className = "opacity-70" /> </a>
         <a className = "bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-white active:scale-105 transition" href="https://www.linkedin.com/in/adarsh-mohanraju-16366318a/"> <BsLinkedin className = "opacity-70"/> </a>
-        <a className = "bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-white active:scale-105 transition" href="https://github.com/amohanraju/projects"> <FaGithubSquare className = "opacity-70"/> </a>
+        <a className = "bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-white active:scale-105 transition" href="https://github.com/amohanraju"> <FaGithubSquare className = "opacity-70"/> </a>
       </motion.div>
       <br />
       <br />
