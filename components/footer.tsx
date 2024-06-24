@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="mb-10 px-4 text-center text-gray-500">
       <small className="mb-2 block text-xs">
-        &copy; Copyright 2023 Adarsh Mohanraju
+        &copy; Copyright 2024 Adarsh Mohanraju
       </small>
       <br />
       <div className = "flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium">

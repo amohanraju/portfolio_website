@@ -33,8 +33,8 @@ export default function Experience() {
                 backgroundColor: "#fafafa"
               }}
             >
-              <h3 className="font-semibold capitalize">{item.title}</h3>
-              <p className="font-normal !mt-0">{item.location}</p>
+              <h3 className="font-semibold capitalize">{item.company}</h3>
+              <h4 className="font-italics">{item.role} </h4>
               <br />
               <p className="!mt-1 !font-normal text-gray-700 ">
                 {item.description}

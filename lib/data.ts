@@ -4,6 +4,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import django from "@/public/DjangoProject.png";
 import affirms from "@/public/Affirms.png";
 import fakenews from "@/public/FakeNews.png";
+import raju from "@/public/raju-properties.png";
 
 export const links = [
   {
@@ -34,42 +35,60 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Software Developer Intern",
+    company: "Greenestep Technologies",
+    role: "Software Developer Intern",
     location: "Clifton, VA",
     description:
-      "I worked as a full stack developer intern for this company and was involved with developing their child company, Affirm's website. Used Javascript, Bootstrap, and Express to develop this website. Additionally I worked on an Alexa Integration project where I helped to connect Alexa with our customer portal so that customers could easily reach tech support through voice command. Coded in python and used AWS Lambda for these integrations.",
+      "For their child company, Affirms Inc, developed the preliminary website and used Javascript, Bootstrap, and Express. Additionally I worked on an Alexa Integration project where I helped to connect Alexa with our customer portal so that customers could easily reach tech support through voice command. Coded in python and used AWS Lambda for these integrations.",
     icon: React.createElement(CgWorkAlt),
     date: "June 2022 - Aug 2022",
   },
   {
-    title: "Software Engineering and Data Science Intern",
+    company: "Dewberry",
+    role: "Software Engineering and Data Science Intern",
     location: "Fairfax, VA",
     description:
-      "Currently this summer, I work as an intern for Dewberry where I worked on devops engineering specifically the automation of power bi deployment pipelines using the Power BI REST API. Additionally, I did several data engineering projects with Microsoft Fabric, where I used Spark, SQL, and Python to code. One of the main projects I was involved with included developing a machine learning model to predict quarterly audit scores for each PM, BU, and Advocate Region and come to a decision on whether they meet corporate standards or not.",
+      "Automated our power bi deployment pipelines using the Power BI REST API as well as doing several data engineering projects with Microsoft Fabric, where I used Spark, SQL, and Python to code. One of the main projects I was involved with included developing a machine learning model to predict quarterly audit scores for each PM, BU, and Advocate Region and come to a decision on whether they meet corporate standards or not.",
     icon: React.createElement(CgWorkAlt),
     date: "March 2023 - August 2023",
+  },
+  {
+    company: "BNY Mellon",
+    role: "Software Engineer Intern",
+    location: "Pittsburgh, PA",
+    description:
+      "Working on the Enterprise Financial Messaging Team",
+    icon: React.createElement(CgWorkAlt),
+    date: "June 2024 - Present",
   },
 ] as const;
 
 export const projectsData = [
   {
+    title: "Raju Properties App",
+    description:
+      "Developed a web application for residents that would be interested in subleasing any of our properties across the US and India. Currently in the process of developing applications for tenant and landlord usage while subleasing our properties.",
+    tags: ["React", "TypeScript", "Postgres SQL", "Python", "Tailwind CSS"],
+    imageUrl: raju,
+  },
+  {
     title: "Schedule Advisor App",
     description:
-      "I worked on this project in a team of 5 being one of the main leaders and development experts. This project automates the advising process for all UVA advisors and students by allowing students to enroll in classes for the upcoming semester, send their schedule to the advisor, and instantly know if the schedule has been approved or rejected. Deployed Website Link: https://b-13-project.herokuapp.com/ (ignore security warning).",
+      "I worked on this project in a team of 5 being one of the main leaders and development experts. This project automates the advising process for all UVA advisors and students by allowing students to enroll in classes for the upcoming semester, send their schedule to the advisor, and instantly know if the schedule has been approved or rejected.",
     tags: ["Django", "Python", "Postgres SQL", "JavaScript", "HTML", "CSS", "Bootstrap"],
     imageUrl: django,
   },
   {
     title: "Affirms Inc Company Website",
     description:
-      "As a Software Developer Intern, I developed a website for Greenestep's child company, Affirms Inc which specializes in providing professional business services in taxes, accounting, billing, and hr. This website is the main website that is used by this company for product marketing and development. Deployed Website Link: https://affirmsinc.com/).",
+      "As a Software Developer Intern, I developed a website for Greenestep's child company, Affirms Inc which specializes in providing professional business services in taxes, accounting, billing, and hr. This website is the main website that is used by this company for product marketing and development.",
     tags: ["Firebase", "Express.js", "JavaScript", "HTML", "CSS", "Bootstrap"],
     imageUrl: affirms,
   },
   {
     title: "Fake News Detector",
     description:
-      "Hackathon project developed in which python and machine learning was utilized in order to scrape a list of top websites for a given news topic and be able to generate the accuracies of the articles using a sentimental analysis algorithm. Link to Devpost Project: https://devpost.com/software/fakesnake",
+      "Hackathon project developed in which python and machine learning was utilized in order to scrape a list of top websites for a given news topic and be able to generate the accuracies of the articles using a sentimental analysis algorithm.",
     tags: ["Python", "Machine Learning"],
     imageUrl: fakenews,
   },
@@ -93,6 +112,7 @@ export const skillsData = [
   "Firebase",
   "Bootstrap",
   "Java",
+  "Spring Boot",
   "C",
 ] as const;
 

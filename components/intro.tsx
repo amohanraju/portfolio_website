@@ -36,12 +36,12 @@ export default function Intro() {
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
         > 
-        I'm a rising third year {" "} 
+        I'm a rising fourth year {" "} 
         <span className = "font-bold"> computer science student </span> at the University of Virginia. I am very passionate about {" "} 
-        <span className="italic"> learning and growing </span> in the fields of {" "}
+        <span> learning and growing </span> in the fields of {" "}
         <span className = "font-bold"> software engineering/development and data science.</span> I love the challenge of solving {" "}
-        <span className = "italic"> rigorous problems </span> and coming up with {" "}
-        <span className = "italic"> innovative solutions on the industry scale. </span> I enjoy working in a {" "}
+        <span> rigorous problems </span> and coming up with {" "}
+        <span> innovative solutions on the industry scale. </span> I enjoy working in a {" "}
         <span className = "font-bold"> fast paced competitive work environment </span> and seek for opportunities in which I can showcase my skills and experience to make a meaningful impact.
         </motion.p>
       </motion.div>
