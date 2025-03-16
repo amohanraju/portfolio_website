@@ -7,7 +7,7 @@ import { BsArrowRight } from "react-icons/bs"
 import { BsLinkedin } from "react-icons/bs"
 import { HiDownload } from "react-icons/hi"
 import {FaGithubSquare} from "react-icons/fa"
-import profile_picture from "@/public/adarsh_profile.png"
+import profile_picture from "@/public/adarsh_new_profile.jpg"
 import {FaArrowCircleDown} from "react-icons/fa"
 import { useSectionInView } from '@/lib/hooks';
 import clsx from 'clsx';
@@ -24,7 +24,7 @@ export default function Intro() {
               height="192"
               quality="95"
               priority={true}
-              className="h-42 w-42 rounded-full object-cover border-[0.35rem] border-white shadow-xl"/>
+              className="h-42 w-45 rounded-full object-cover border-[0.35rem] border-white shadow-xl"/>
             </div>
         </div>
         <br />
