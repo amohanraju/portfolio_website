@@ -7,7 +7,7 @@ import { BsArrowRight } from "react-icons/bs"
 import { BsLinkedin } from "react-icons/bs"
 import { HiDownload } from "react-icons/hi"
 import {FaGithubSquare} from "react-icons/fa"
-import profile_picture from "@/public/adarsh_new_profile.jpg"
+import profile_picture from "@/public/adarsh_profile_pic.jpg"
 import {FaArrowCircleDown} from "react-icons/fa"
 import { useSectionInView } from '@/lib/hooks';
 import clsx from 'clsx';
@@ -24,7 +24,7 @@ export default function Intro() {
               height="192"
               quality="95"
               priority={true}
-              className="h-42 w-45 rounded-full object-cover border-[0.35rem] border-white shadow-xl"/>
+              className="h-42 w-42 object-cover border-[0.35rem] border-white shadow-xl"/>
             </div>
         </div>
         <br />
@@ -36,13 +36,12 @@ export default function Intro() {
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
         > 
-        I'm a rising fourth year {" "} 
-        <span className = "font-bold"> computer science student </span> at the University of Virginia. I am very passionate about {" "} 
-        <span> learning and growing </span> in the fields of {" "}
-        <span className = "font-bold"> software engineering/development and data science.</span> I love the challenge of solving {" "}
+        I'm a recent {" "} graduate from the University of Virginia with a major in computer science and minor in data science. I am very passionate about {" "} 
+        <span> learning and growing </span> in fields such as{" "}
+        <span className = "font-bold"> software engineering/development and AI.</span> I love the challenge of solving {" "}
         <span> rigorous problems </span> and coming up with {" "}
         <span> innovative solutions on the industry scale. </span> I enjoy working in a {" "}
-        <span className = "font-bold"> fast paced competitive work environment </span> and seek for opportunities in which I can showcase my skills and experience to make a meaningful impact.
+        <span className = "font-bold"> fast-paced, competitive work environment </span> and seek for opportunities in which I can showcase my skills and experience to make a meaningful impact.
         </motion.p>
       </motion.div>
 
@@ -61,7 +60,7 @@ export default function Intro() {
           Contact me here{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
-        <a className = "bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-white active:scale-105 transition" href="/Adarsh - Resume.pdf" download> Download Resume <HiDownload className = "opacity-70" /> </a>
+        <a className = "bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-white active:scale-105 transition" href="/Adarsh - Resume1.pdf" download> Download Resume <HiDownload className = "opacity-70" /> </a>
         <a className = "bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-white active:scale-105 transition" href="https://www.linkedin.com/in/adarsh-mohanraju-16366318a/"> <BsLinkedin className = "opacity-70"/> </a>
         <a className = "bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-white active:scale-105 transition" href="https://github.com/amohanraju"> <FaGithubSquare className = "opacity-70"/> </a>
       </motion.div>

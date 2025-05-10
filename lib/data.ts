@@ -53,14 +53,23 @@ export const experiencesData = [
     date: "March 2023 - August 2023",
   },
   {
-    company: "BNY Mellon",
+    company: "BNY",
     role: "Software Engineer Intern",
     location: "Pittsburgh, PA",
     description:
-      "Working on the Enterprise Financial Messaging Team",
+      "Integrated monitoring for SWIFT's Microgateway product onto BNY's existing enterprise financial messaging dashboard using Angular and Spring Boot. This ended up getting deployed to production is currently in use by our production services and EFM team for health check monitoring.",
     icon: React.createElement(CgWorkAlt),
-    date: "June 2024 - Present",
+    date: "June 2024 - August 2024",
   },
+  {
+    company: "Capital One",
+    role: "Associate Software Engineer",
+    location: "McLean, VA",
+    description:
+      "Contributing as a full-stack engineer in Capital One Software where our team is focused on the development of Databolt, a commercial tokenization product built to secure enterprise data for businesses.",
+    icon: React.createElement(CgWorkAlt),
+    date: "February 2025 - Present",
+  }
 ] as const;
 
 export const projectsData = [
